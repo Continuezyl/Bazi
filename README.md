@@ -25,11 +25,8 @@
 # 安装依赖
 npm install
 
-# 配置 API Key
-cp .env.example .env.local
-# 编辑 .env.local，填入你的 DeepSeek API Key
-
-# 启动开发服务器
+# 创建 .env.local 并填入 DeepSeek API Key（参考 .env.example）
+# 然后启动开发服务器
 npm run dev
 ```
 
